@@ -1,24 +1,13 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Componente from "./components/Componente";
 
 function App() {
-  let nombre = "Elliot",
-    estaciones = ["Primavera", "Verano", "Otoño", "Invierno"];
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <label htmlFor="nombre">Nombre</label>
-        <input type="text" id="nombre" />
-        <p>{nombre}</p>
-        <p>{2 + 1}</p>
-        <p>
-          {/*A la inserción del DOM debe haber un identificador unico*/}
-          {estaciones.map((el, index) => (
-            <li key={index}>{el}</li>
-          ))}
-        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -31,6 +20,32 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        {/* <Componente></Componente> */}
+        {/* <Componente msg="Hola soy un componente desde una prop" /> */}
+        {/* <Componente msg="Hola soy un componente Funcional desde una prop" /> */}
+        <Componente msg="Hola soy un componente Funcional Expresado desde una prop" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </section>
     </div>
   );
 }
