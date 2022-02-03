@@ -10,10 +10,10 @@ import React, { Component } from "react";
 const Componente = (props) => <h2>{props.msg}</h2>;
 
 // // Componente basado en clases
+// // Como una clase que extiende de Component con un método render:
 // class Componente extends Component {
-//   // Un componente de clase debe tener su metodo render
 //   render() {
-//     //   Hacemos uso de las props
+//     // Hacemos uso de las props
 //     // Es un objeto desde el this de la clase y el atributo que estoy mandando
 //     return <h2>{this.props.msg}</h2>;
 //   }
