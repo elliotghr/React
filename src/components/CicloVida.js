@@ -67,6 +67,7 @@ export default class CicloVida extends Component {
       4,
       "El componente se dibujo o redibuja por algún cambio en el DOM"
     );
+    
     return (
       <>
         <h2>Ciclo de vida de los componentes de clase</h2>

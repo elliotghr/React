@@ -118,7 +118,7 @@ export class EventosES7 extends Component {
 
 // Destructurando props
 
-const Boton = ({myOnClickPersonalizado}) => (
+const Boton = ({ myOnClickPersonalizado }) => (
   <button onClick={myOnClickPersonalizado}>Boton hecho componente</button>
 );
 
@@ -141,6 +141,7 @@ export class MasSobreEventos extends Component {
         <h2>Mas sobre eventos</h2>
         <button onClick={this.handleClick}>Saludar</button>
         {/* Pasando parametros desde el manejador de eventos */}
+        {/* Se crea una Arrow Function */}
         <button
           onClick={(e) =>
             this.handleClick(e, "Pasando parametro desde un evento")
