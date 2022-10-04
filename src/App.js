@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
@@ -12,9 +13,16 @@ import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
 import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from "./components/ContadorHooks";
-import ScrollHooks from "./components/ScrollHooks";
-
+// import ScrollHooks from "./components/ScrollHooks";
+import ScrollHooks2 from "./components/ScrollHooks2";
+import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
 import Prueba from "./components/Prueba";
+import Formularios from "./components/Formularios";
+import Estilos from "./components/Estilos";
+
 function App() {
   return (
     <div className="App">
@@ -71,13 +79,30 @@ function App() {
           <hr />
           <ComunicacionComponentes />
           <hr />
-          <CicloVida />
+          {/* <CicloVida /> */}
           <hr />
-          <AjaxApis />
+          {/* <AjaxApis /> */}
           <hr />
-          <ContadorHooks titulo="Seguidores" />
+          <ContadorHooks titulo="Soy un mensaje pasado por props" />
           <hr />
-          <ScrollHooks />
+          <ScrollHooks2 />
+          <hr></hr>
+          <RelojHooks></RelojHooks>
+          <hr></hr>
+          {/* <AjaxHooks></AjaxHooks> */}
+          <hr></hr>
+          <HooksPersonalizados></HooksPersonalizados>
+          <hr></hr>
+          <Referencias></Referencias>
+          <hr></hr>
+          <Formularios></Formularios>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <hr></hr>
+          <Estilos></Estilos>
         </section>
       </header>
     </div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function ScrollHooks() {
+export default function ScrollHooks2() {
   const [scrollY, setScrollY] = useState(0);
   // const [name, setName] = useState("Jon");
 
